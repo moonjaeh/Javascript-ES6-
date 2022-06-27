@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>논리연산자를 이용한 단축평가</title>
+</head>
+<body>
+    <script>
+        const done = true;
+        let message = '';
+
+        message = done && '성공';
+        console.log(message);
+
+        const done2 = false;
+        let message2 = '';
+
+        message2 = done2 || '실패';
+        console.log(message2);
+    </script>
+</body>
+</html>
